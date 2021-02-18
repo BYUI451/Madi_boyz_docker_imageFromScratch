@@ -1,4 +1,4 @@
-# How to Create a Custom Docker Image from a Python Base Image
+# How to Customize a Python Base Image and Push to your Dockerhub
 ### **by Madi and the Boyz:**
 **Madi Woodard, Cody Martinson, Dave Moreno**
 
