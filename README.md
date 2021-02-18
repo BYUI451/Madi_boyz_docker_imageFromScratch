@@ -94,6 +94,9 @@ docker push image_name:optional_tag
 ```
 If you don't remember your image name or it's too long, you can see your image name and tag by entering `docker images` and copying it into the `docker push` command.
 
+## Congratulations!
+You created and pushed your very own python-based docker image.
+
 ### Sources:
 
 * https://www.youtube.com/watch?v=bi0cKgmRuiA&amp%3Bt=1000s
