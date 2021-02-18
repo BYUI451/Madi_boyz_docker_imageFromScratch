@@ -53,10 +53,10 @@ WORKDIR /top_directory
 COPY main.py .
 COPY other.py file/path/in_image
 
-# Install individual dependencies
+# Install an individual dependency (used for single packages. See below if there are multiple)
 RUN pip install package
 
-# If you use requirements.txt, copy it into the top directory and install all the dependencies
+# If you use requirements.txt, copy it into the top directory and install all the dependencies 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
